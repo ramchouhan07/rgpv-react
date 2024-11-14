@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { redirect } from 'react-router-dom'
 
- export  default function   Revolution() {
+ export  const   Revolution=()=> {
 	const  getResult = () => {
        redirect("/new-page")
 	}
