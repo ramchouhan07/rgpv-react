@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '/src/App.css';
 import { Route, Routes } from 'react-router-dom'
 import Result from './RESULTPAGE';
-// import Revolution from './revolution';
+import Revolution from './revolution';
 import Chalange from './chalange';
  const Home = function() {
 	const  getResult = () => {
@@ -92,7 +92,7 @@ import Chalange from './chalange';
 		</fieldset>
 
 	</div>
-	{/* <Revolution/> */}
+	<Revolution/>
 	<Chalange/>
 	  </>
 	  

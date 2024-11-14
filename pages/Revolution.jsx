@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import { redirect } from 'react-router-dom'
 
- const Revolution = ()=> {
+ export  default function   Revolution() {
 	const  getResult = () => {
-		window.location.href = '/new-page';
-	  }
+       redirect("/new-page")
+	}
     return (
       <>
        <div className="container">
@@ -89,4 +90,4 @@ import React, { Component } from 'react'
       </>
     )
   }
-export default Revolution;
+
