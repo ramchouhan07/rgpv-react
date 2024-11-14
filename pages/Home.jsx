@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import '/src/App.css';
 import { Route, Routes } from 'react-router-dom'
 import Result from './RESULTPAGE';
+import Revolution from './revolution';
+import Chalange from './chalange';
  const Home = function() {
 	const  getResult = () => {
 		window.location.href = '/new-page';
@@ -90,6 +92,8 @@ import Result from './RESULTPAGE';
 		</fieldset>
 
 	</div>
+	<Revolution/>
+	<Chalange/>
 	  </>
 	  
 	)

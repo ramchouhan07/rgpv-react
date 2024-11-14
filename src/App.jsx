@@ -1,6 +1,4 @@
 import Home from "../pages/Home"
-import Revolution from "../pages/revolution"
-import Chalange from "../pages/chalange"
 import { Route, Routes } from "react-router-dom"
 import Result from "../pages/RESULTPAGE"
 import Header from "../pages/Header"
@@ -13,9 +11,7 @@ function App() {
      <Header />
   
   <Routes>
-    <Route  path="/" element={[<Home />,
-  <Revolution />,
-  <Chalange />]} />
+    <Route  path="/" element={<Home/>} />
     <Route path="/out" element={<Out/>} />
   
     <Route path="/new-page" element={<Result />} />
