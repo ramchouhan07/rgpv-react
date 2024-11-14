@@ -1,17 +1,4 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
 
-body{
-  background-color: rgb(152, 11, 11);
-  
-  margin-right: 100px;
-  margin-left: 100px;
-  padding: 0;
-}
 
 .header{
   background-color: #94caf6;
@@ -27,7 +14,6 @@ body{
 }
 .heading{
   color: rgb(6, 45, 70);
-  
   text-align: center;
 }
 .portal{

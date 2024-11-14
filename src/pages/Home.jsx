@@ -3,7 +3,7 @@ import '/src/App.css';
 import { Route, Routes } from 'react-router-dom'
 import Result from './RESULTPAGE';
 import Chalange from './chalange';
-import {Revolution} from '../pages/Revolution'
+import {Revolution} from './Revolution'
  const Home = function() {
 	const  getResult = () => {
 		window.location.href = '/new-page';
@@ -12,10 +12,10 @@ import {Revolution} from '../pages/Revolution'
 	return (
 	  <>
 	
-	  <div className="container">
+	  <div className="container bg-white/25 border px-3 py-4">
 		<h3 className="resultType">Main Result</h3>
 		<fieldset>
-			<legend>Please Select Program</legend>
+			<h1 className='' >Please Select Program</h1>
 			<table className="table">
 				<tr className="tablerow">
 			      <td>
